@@ -1,4 +1,4 @@
-# © @Mr_Dark_Prince
+# © @diemmmmmmmmmm
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from AlexaSongBot.modules import *
@@ -13,7 +13,7 @@ start_text = """
 Hey [{}](tg://user?id={}),
 I'm Alexa 🤗
 Just send me the song name you want to download.
-Eg: ```/song Faded Alan Walker```
+Eg: ```/song Kangen band Pujaan hati```
 """
 
 owner_help = """
@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="🔳 Pemilik 🔳", url="https://t.me/diemmmmmmmmmm"
                     )
                 ]
             ]
